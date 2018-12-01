@@ -1,4 +1,6 @@
 //= require select2-full
+//= require select2_locale_pl
+//
 //= require jquery.xdan.datetimepicker.full
 //= require palette-color-picker
 //

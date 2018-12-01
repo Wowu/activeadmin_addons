@@ -1,11 +1,16 @@
 module ActiveadminAddons
   extend self
 
-  attr_writer :default_select, :datetime_picker_default_options, :datetime_picker_input_format
+  attr_writer :default_select, :select2_locale, :datetime_picker_default_options, :datetime_picker_input_format
 
   def default_select
     return "select2" unless @default_select
     @default_select
+  end
+
+  def select2_locale
+    return "en" unless @select2_locale
+    @select2_locale
   end
 
   def datetime_picker_default_options

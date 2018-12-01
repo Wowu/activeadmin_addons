@@ -21,6 +21,7 @@ var initializer = function() {
         placeholder: '',
         width: '80%',
         allowClear: true,
+        language: ActiveadminAddons.config.select2Locale || 'en',
       };
 
       function isFilter(path) {

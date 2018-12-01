@@ -4,5 +4,6 @@ class ActiveAdmin::Views::Pages::Base
   def build(*args)
     original_build(args)
     body.set_attribute "data-default-select", ActiveadminAddons.default_select
+    body.set_attribute "data-select2-locale", ActiveadminAddons.select2_locale
   end
 end
